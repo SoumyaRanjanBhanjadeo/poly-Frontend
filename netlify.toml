@@ -1,15 +1,6 @@
 [[redirects]]
-from = "latest"
-to = "login"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
-[[redirects]]
-from = "/register"
-to = "/register"
-status = 200
-
-[[redirects]]
-from = "/authors"
-to = "/authors"
-status = 200
 
