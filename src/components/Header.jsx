@@ -63,7 +63,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to={window.location.href += "/create"} onClick={closeNavHandler}>
+              <Link to="/create" onClick={closeNavHandler}>
                 Create Post
               </Link>
             </li>
@@ -82,12 +82,12 @@ const Header = () => {
         {!currentUser?.id && isNavShowing && (
           <ul className="nav__menu">
             <li>
-              <Link to={window.location.href += "/authors"} onClick={closeNavHandler}>
+              <Link to="/authors" onClick={closeNavHandler}>
                 Authors
               </Link>
             </li>
             <li>
-              <Link to={window.location.href = "/login"} onClick={closeNavHandler}>
+              <Link to="/login" onClick={closeNavHandler}>
                 Login
               </Link>
             </li>
