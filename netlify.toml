@@ -5,8 +5,13 @@
 
 
 [[redirects]]
-  from = "/create-post"
+  from = "/create"
   to = "/create"
   status = 200
+
+[[redirects]]
+  from = "/profile:id"
+  to = "/profile:id"
+  status = 301
 
 

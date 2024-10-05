@@ -1,3 +1,5 @@
 /*  /  200
 
-/create-post /create 200
+/create /create 200
+
+/profile:id /profile:id 301
