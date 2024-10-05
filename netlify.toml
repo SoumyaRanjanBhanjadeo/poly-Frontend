@@ -4,14 +4,5 @@
   status = 200
 
 
-[[redirects]]
-  from = "/create"
-  to = "/create"
-  status = 200
-
-[[redirects]]
-  from = "/profile:id"
-  to = "/profile:id"
-  status = 301
 
 
