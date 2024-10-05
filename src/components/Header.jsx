@@ -87,7 +87,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to={window.location.href += "/login"} onClick={closeNavHandler}>
+              <Link to={window.location.href = "/login"} onClick={closeNavHandler}>
                 Login
               </Link>
             </li>
