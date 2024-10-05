@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/login"
+from = "/latest"
 to = "/login"
 status = 200
 
